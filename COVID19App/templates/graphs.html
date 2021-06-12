@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        COVID-19 Trends
+    </title>
+    <style>
+        .heatmap, .linechart{
+            width: 80% !important;
+            display: flex;
+            margin-left: auto;
+            margin-top: -13%;
+            margin-right: auto;
+        }
+        h2{
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Correlation Heatmap for Active COVID-19 Cases across Counties</h2>
+    <div class="heatmap">{{heatmap|safe}}</div>
+    <h2>Chart to compare Active COVID-19 Cases across Counties over time</h2>
+    <div class="linechart">{{linechart|safe}}</div>
+</body>
+</html>
